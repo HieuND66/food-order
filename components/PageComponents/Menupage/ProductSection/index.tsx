@@ -1,12 +1,7 @@
 import Link from "next/link";
 import { FC } from "react";
 import { GoSearch } from "react-icons/go";
-import {
-  BsFillHeartFill,
-  BsSearch,
-  BsStarFill,
-  BsStarHalf,
-} from "react-icons/bs";
+import { BsFillHeartFill, BsStarFill, BsStarHalf } from "react-icons/bs";
 import Select from "../../../Select";
 
 const ProductSection: FC = () => {

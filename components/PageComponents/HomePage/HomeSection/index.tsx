@@ -4,7 +4,6 @@ import { FC, useState, useRef, useEffect } from "react";
 const HomeSection: FC = () => {
   const [isHovering, setIsHovering] = useState(false);
   const mainCursor = useRef<HTMLDivElement>(null);
-  const secondaryCursor = useRef<HTMLDivElement>(null);
   const handleMouseMove = (event: any) => {
     const { clientX, clientY } = event;
 

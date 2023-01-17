@@ -117,7 +117,7 @@ const Footer: FC = () => {
           </Link>
         </div>
         <div className="credit">
-          created <span>mr. web designer</span> | all rights reserved!
+          created <span>HieuND</span>
         </div>
       </div>
     </section>

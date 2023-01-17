@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FC, useState, useRef, useEffect } from "react";
+import { FC } from "react";
 import { BsFillHeartFill, BsStarFill, BsStarHalf } from "react-icons/bs";
 
 const PopularSection: FC = () => {

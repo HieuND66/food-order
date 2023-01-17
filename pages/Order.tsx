@@ -1,4 +1,4 @@
-const MenuPage = () => {
+const OrderPage = () => {
   return (
     <div>
       <section className="order" id="order">
@@ -77,4 +77,4 @@ const MenuPage = () => {
     </div>
   );
 };
-export default MenuPage;
+export default OrderPage;

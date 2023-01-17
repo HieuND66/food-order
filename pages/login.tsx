@@ -5,17 +5,7 @@ import { useEffect } from "react";
 
 const LoginPage = () => {
   const router = useRouter();
-  const {
-    handleSubmit,
-    handleChange,
-    handleBlur,
-    setValues,
-    resetForm,
-    values,
-    errors,
-    setFieldValue,
-    touched,
-  } = useFormik({
+  const { handleSubmit, handleChange, handleBlur } = useFormik({
     enableReinitialize: true,
     initialValues: {
       email: "",

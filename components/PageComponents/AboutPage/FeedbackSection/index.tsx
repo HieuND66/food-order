@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FC } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import Slider from "react-slick";
